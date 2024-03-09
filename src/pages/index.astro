@@ -1,0 +1,47 @@
+---
+import { categories } from "@/oscars";
+import AsideBar from "../components/AsideBar.astro";
+import Category from "../components/Category.astro";
+import HighlightCategory from "../components/HighlightCategory.astro";
+import Logo from "../components/Logo.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Prode Oscars 2024">
+	<AsideBar slot="aside" />
+
+	<header class="flex justify-center items-center gap-4 p-6 mb-2">
+		<h1 class="text-[#B59223] text-6xl font-bold">Prode Oscars 2024</h1>
+		<Logo />
+	</header>
+	<main class="mb-12">
+		<form method="post" class="grid grid-cols-3 gap-4" id="prode-oscars">
+			<div class="col-span-3 flex justify-center items-center mb-2">
+				<span class="text-lg font-medium"> Name:</span>
+				<input
+					type="text"
+					class="border-b-2 border-gray-200 rounded-md p-1 w-1/2"
+					name="username"
+				/>
+			</div>
+			{
+				categories.map((category) => {
+					if (category.name === "Best Picture")
+						return (
+							<div class="col-span-2">
+								<HighlightCategory category={category} />
+							</div>
+						);
+					if (category.name !== "Best Picture")
+						return <Category category={category} />;
+				})
+			}
+		</form>
+	</main>
+	<footer
+		class="flex justify-center gap-1 text-gray-600 italic mb-4 print:hidden"
+	>
+		<span>Made with ❤️ by</span>
+		<a href="https://www.instagram.com/gonzalomanoukian">Gonzalo Manoukian</a>
+	</footer>
+</Layout>

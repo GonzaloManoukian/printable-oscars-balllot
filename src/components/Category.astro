@@ -1,0 +1,44 @@
+---
+interface Category {
+  name: string;
+  nominees: string[];
+  winner: string;
+}
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+---
+
+<div>
+  <h2 class="text-[#B59223] font-bold mb-1">
+    {category.name}
+  </h2>
+  <div>
+    {
+      category.nominees.map((nominee) => {
+        const deliveredCategory = category.winner !== "";
+        const isWinner = nominee === category.winner;
+        return (
+          <div
+            class={`flex gap-2 ${isWinner ? "bg-green-300 rounded py-0.5" : ""}`}
+            title={nominee}
+          >
+            <input
+              type="radio"
+              name={category.name}
+              value={nominee}
+              class="ml-2"
+              checked={isWinner}
+              disabled={deliveredCategory}
+            />
+            <label class="ml-1 text-sm font-medium whitespace-nowrap text-ellipsis truncate">
+              {nominee}
+            </label>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>

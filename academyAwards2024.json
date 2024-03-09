@@ -1,0 +1,262 @@
+{
+  "categories": [
+    {
+      "name": "Best Picture",
+      "nominees": [
+        "American Fiction",
+        "Anatomy of a Fall",
+        "Barbie",
+        "The Holdovers",
+        "Killers of the Flower Moon",
+        "Maestro",
+        "Oppenheimer",
+        "Past Lives",
+        "Poor Things",
+        "The Zone of Interest"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Directing",
+      "nominees": [
+        "Justine Triet - Anatomy of a Fall",
+        "Martin Scorsese - Killers of the Flower Moon",
+        "Yorgos Lanthimos - Poor Things",
+        "Christopher Nolan - Oppenheimer",
+        "Jonathan Glazer - The Zone of Interest"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Actress in a Leading Role",
+      "nominees": [
+        "Lily Gladstone - Killers of the Flower Moon",
+        "Carey Mulligan - Maestro",
+        "Sandra Hüller - Anatomy of a Fall",
+        "Annette Bening - Nyad",
+        "Emma Stone - Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Actor in a Leading Role",
+      "nominees": [
+        "Bradley Cooper - Maestro",
+        "Colman Domingo - Rustin",
+        "Paul Giamatti - The Holdovers",
+        "Cillian Murphy - Oppenheimer",
+        "Jeffrey Wright - American Fiction"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Actress in a supporting role",
+      "nominees": [
+        "Emily Blunt - Oppenheimer",
+        "Da'Vine Joy Randolph - The Holdovers",
+        "Danielle Brooks - The Color Purple",
+        "Jodie Foster - Nyad",
+        "America Ferrera - Barbie"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Actor in a supporting role",
+      "nominees": [
+        "Sterling K. Brown - American Fiction",
+        "Robert De Niro - Killers of the Flower Moon",
+        "Robert Downey Jr. - Oppenheimer",
+        "Ryan Gosling - Barbie",
+        "Mark Ruffalo - Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Writing (Original Screenplay)",
+      "nominees": [
+        "Anatomy of a Fall",
+        "The Holdovers",
+        "May December",
+        "Past Lives",
+        "Maestro"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Writing (Adapted Screenplay)",
+      "nominees": [
+        "American Fiction",
+        "Barbie",
+        "Oppenheimer",
+        "Poor Things",
+        "The Zone of Interest"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Production Design",
+      "nominees": [
+        "Barbie",
+        "Killers of the Flower Moon",
+        "Napoleon",
+        "Oppenheimer",
+        "Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "International Feature Film",
+      "nominees": [
+        "The Zone of Interest",
+        "Perfect Days",
+        "Society of the Snow",
+        "Io Capitano",
+        "The Teachers' Lounge"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Film Editing",
+      "nominees": [
+        "Anatomy of a Fall",
+        "The Holdovers",
+        "Killers of the Flower Moon",
+        "Oppenheimer",
+        "Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Cinematography",
+      "nominees": [
+        "El Conde",
+        "Killers of the Flower Moon",
+        "Maestro",
+        "Oppenheimer",
+        "Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Animated Feature Film",
+      "nominees": [
+        "The Boy and the Heron",
+        "Elemental",
+        "Nimona",
+        "Robot Dreams",
+        "Spider-Man: Across the Spider-Verse"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Costume Design",
+      "nominees": [
+        "Barbie",
+        "Killers of the Flower Moon",
+        "Napoleon",
+        "Oppenheimer",
+        "Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Makeup and Hairstyling",
+      "nominees": [
+        "Golda",
+        "Maestro",
+        "Oppenheimer",
+        "Poor Things",
+        "Society of the Snow"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Sound",
+      "nominees": [
+        "Oppenheimer",
+        "Maestro",
+        "The Zone of Interest",
+        "Maestro",
+        "Mission: Impossible – Dead Reckoning Part One"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Documentary (Feature)",
+      "nominees": [
+        "Bobi Wine: The People’s President",
+        "The Eternal Memory",
+        "Four Daughters",
+        "To Kill a Tiger",
+        "20 Days in Mariupol"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Music (Original Score)",
+      "nominees": [
+        "Laura Karpman - American Fiction",
+        "John Williams - Indiana Jones and the Dial of Destiny",
+        "Robbie Robertson - Killers of the Flower Moon",
+        "Ludwig Göransson - Oppenheimer",
+        "Jerskin Fendrix - Poor Things"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Music (Original Song)",
+      "nominees": [
+        "\"It Never Went Away\" - American Symphony",
+        "\"I'm Just Ken\" - Barbie",
+        "\"What Was I Made For?\" - Barbie",
+        "\"Wahzhazhe (A Song for My People)\" - Killers of the Flower Moon",
+        "\"The Fire Inside\" - Flamin Hot"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Visual Effects",
+      "nominees": [
+        "The Creator",
+        "Godzilla Minus One",
+        "Guardians of the Galaxy Vol. 3",
+        "Mission: Impossible – Dead Reckoning Part One",
+        "Napoleon"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Short Film (Live Action)",
+      "nominees": [
+        "The After",
+        "Invincible",
+        "Knight of Fortune",
+        "Red, White and Blue",
+        "The Wonderful Story of Henry Sugar"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Documentary (Short Film)",
+      "nominees": [
+        "The ABCs of Book Banning",
+        "The Barber of Little Rock",
+        "Island in Between",
+        "The Last Repair Shop",
+        "Nǎi Nai & Wài Pó"
+      ],
+      "winner": ""
+    },
+    {
+      "name": "Short Film (Animated)",
+      "nominees": [
+        "Letter to a Pig",
+        "Ninety-Five Senses",
+        "Our Uniform",
+        "Pachyderme",
+        "War Is Over! Inspired by the Music of John and Yoko"
+      ],
+      "winner": ""
+    }
+  ]
+}
